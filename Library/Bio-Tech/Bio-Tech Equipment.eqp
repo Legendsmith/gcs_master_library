@@ -1,0 +1,266 @@
+{
+	"type": "equipment_list",
+	"version": 1,
+	"id": "69c85a3f-bce5-49ff-adf7-d03d8a28c19b",
+	"rows": [
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "69032828-a161-4d9a-aaf2-75e49d7cc5f7",
+			"quantity": 1,
+			"description": "Biofilter Canteen",
+			"tech_level": "9",
+			"value": "380",
+			"weight": "3 lb",
+			"reference": "BT96",
+			"notes": "1 quart water, filters in 30 minutes.",
+			"categories": [
+				"Biogadgets",
+				"Camping and Survival Gear"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "f5bf639b-6478-4cf1-a6c9-f4a75563ced1",
+			"based_on_id": "69032828-a161-4d9a-aaf2-75e49d7cc5f7",
+			"based_on_hash": "FIGyW41+vUiRzrf2ovYavXlKZxtpKZbPSwogs5vieYk",
+			"quantity": 1,
+			"description": "Fleshbed",
+			"tech_level": "10",
+			"value": "7500",
+			"weight": "60 lb",
+			"reference": "BT96",
+			"categories": [
+				"Biogadgets"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "e993663c-7b93-4e15-a742-3a44b832d54c",
+			"based_on_id": "f5bf639b-6478-4cf1-a6c9-f4a75563ced1",
+			"based_on_hash": "kRYBzlDzl4NGbPqNUCaBbvhLeRn2G4Kp7bfb8+pHxXU",
+			"quantity": 1,
+			"description": "Garbage Disposal",
+			"tech_level": "10",
+			"value": "1000",
+			"weight": "8 lb",
+			"reference": "BT96",
+			"categories": [
+				"Biogadgets"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "c3029c6b-ced9-4f95-bb7e-289f0894123a",
+			"based_on_id": "e993663c-7b93-4e15-a742-3a44b832d54c",
+			"based_on_hash": "zPeTmfVFpXz5Bo+agiM0cCWtnh4yIe+qV2l7Rw/sL4Y",
+			"quantity": 1,
+			"description": "Skullcat",
+			"tech_level": "10",
+			"value": "500",
+			"weight": "8 lb",
+			"reference": "BT96",
+			"notes": "+1 Sex Appeal to those who like cats.",
+			"categories": [
+				"Biogadgets"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "da1db1a7-d06a-4d7e-a406-c80bb7641285",
+			"based_on_id": "c3029c6b-ced9-4f95-bb7e-289f0894123a",
+			"based_on_hash": "6O7HcHSyDL50tBAoCQhIhTr2nQJFjAdHbQwbN0R829E",
+			"quantity": 1,
+			"description": "Smart Rug",
+			"tech_level": "10",
+			"value": "500",
+			"weight": "4 lb",
+			"reference": "BT96",
+			"notes": "ST 4, DX 2, IQ 1, HT 12; Move 1",
+			"categories": [
+				"Biogadgets"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "b2e34825-c42d-432f-a5bb-da4f92258d5f",
+			"based_on_id": "da1db1a7-d06a-4d7e-a406-c80bb7641285",
+			"based_on_hash": "v94OqOqsEL4OXnvEi2fxFFqlJCCI/hsGBitrlt7jvBg",
+			"quantity": 1,
+			"description": "Squidpack",
+			"tech_level": "10",
+			"value": "30",
+			"weight": "10 lb",
+			"reference": "BT96",
+			"notes": "Provides Water Move 5. Uses Swimming skill.",
+			"categories": [
+				"Biogadgets"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "f9badf6e-a225-43cd-bc1a-80236b3a0706",
+			"based_on_id": "a6a0694a-4357-4ac2-a477-f5041df5dfbb",
+			"based_on_hash": "TDSo1OtgBbuc6VEAUYgTSeUEG6fnaiY58fX8N2xCQyY",
+			"quantity": 1,
+			"description": "Abortifacients, Herbal",
+			"tech_level": "0",
+			"value": "10",
+			"reference": "BT149",
+			"notes": "2d Toxic Damage, HT-2 to resist.",
+			"categories": [
+				"Drugs"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "0c37278c-d2ea-42d1-bed6-be2cc40a54a8",
+			"based_on_id": "f9badf6e-a225-43cd-bc1a-80236b3a0706",
+			"based_on_hash": "O7xj5ZhHyxovl8L5MeoU4iCHIdWLRxiDmD4U9DmaYAc",
+			"quantity": 1,
+			"description": "Abortifacient, Synthetic",
+			"tech_level": "8",
+			"value": "10",
+			"reference": "BT149",
+			"notes": "Price per dose.",
+			"categories": [
+				"Drugs"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "a6a0694a-4357-4ac2-a477-f5041df5dfbb",
+			"quantity": 1,
+			"description": "Chloroform",
+			"tech_level": "5",
+			"value": "5",
+			"reference": "BT149",
+			"notes": "Roll against HT-3 or fall unconscious",
+			"categories": [
+				"Drugs"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "1a717f09-5d2f-408e-9c36-fd691ee3404e",
+			"based_on_id": "a6a0694a-4357-4ac2-a477-f5041df5dfbb",
+			"based_on_hash": "zVq14Ay9LM93Rz3I2XdyedcNunOu7ZnCgOsGjEuSp5o",
+			"quantity": 1,
+			"description": "Ether",
+			"tech_level": "5",
+			"value": "5",
+			"reference": "BT149",
+			"notes": "Roll against HT-3 or fall unconscious",
+			"categories": [
+				"Drugs"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "91abc649-f151-4c52-bab6-8016853b4784",
+			"based_on_id": "1a717f09-5d2f-408e-9c36-fd691ee3404e",
+			"based_on_hash": "4prDDXgs/DdtM4/UXGsKXipC6MUuP3vi+RWBjkQgIgU",
+			"quantity": 1,
+			"description": "Ether",
+			"tech_level": "5",
+			"value": "5",
+			"reference": "BT149",
+			"notes": "Price per dose. Roll against HT-3 or fall unconscious",
+			"categories": [
+				"Drugs"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "093f121b-97c4-43ca-a2c5-39a063b5f96a",
+			"based_on_id": "91abc649-f151-4c52-bab6-8016853b4784",
+			"based_on_hash": "CeSD69UjTZSzq8gF4u3bNfylTggmEZxuPQpqWfhxzmw",
+			"quantity": 1,
+			"description": "Asprin, 100 tablets",
+			"tech_level": "6",
+			"value": "3",
+			"reference": "BT149",
+			"uses": 100,
+			"max_uses": 100,
+			"categories": [
+				"Drugs"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "975ba320-52c7-4de9-a8c3-b3529c8250ff",
+			"based_on_id": "093f121b-97c4-43ca-a2c5-39a063b5f96a",
+			"based_on_hash": "3X6K6MPON25bJ1b0Su11YF2jEr7w43arXI1WDLn3FNM",
+			"quantity": 1,
+			"description": "Narcotic Painkiller",
+			"tech_level": "5",
+			"value": "3",
+			"reference": "BT149",
+			"notes": "Price per dose.",
+			"categories": [
+				"Drugs"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "0eda8057-ba32-46f9-a8ed-f9150b8bd6a5",
+			"based_on_id": "975ba320-52c7-4de9-a8c3-b3529c8250ff",
+			"based_on_hash": "xinWC6LQna7UKOTJ4LwMf7d2eHCLLlCBvExBhh+kRJ0",
+			"quantity": 1,
+			"description": "Acetaminophen, 100 tablets",
+			"tech_level": "7",
+			"value": "3",
+			"reference": "BT149",
+			"uses": 100,
+			"max_uses": 100,
+			"categories": [
+				"Drugs"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "7a8c66fc-ec03-403a-af47-f8088090a075",
+			"based_on_id": "0eda8057-ba32-46f9-a8ed-f9150b8bd6a5",
+			"based_on_hash": "o3Ku+mWdyeCwrRAqk5qE96FFBonrmMSX349MphTrQQs",
+			"quantity": 1,
+			"description": "Analgine",
+			"tech_level": "9",
+			"value": "2",
+			"reference": "BT149",
+			"categories": [
+				"Drugs"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "6b624e83-c2d8-4f78-9196-b854d8a7e46e",
+			"based_on_id": "7a8c66fc-ec03-403a-af47-f8088090a075",
+			"based_on_hash": "rQDZYRaNXZxl1mW7REKXxQpNmxrzl49w6wqXN8oCdgU",
+			"quantity": 1,
+			"description": "Painaway, 100",
+			"tech_level": "9",
+			"value": "10",
+			"reference": "BT149",
+			"uses": 100,
+			"max_uses": 100,
+			"categories": [
+				"Drugs"
+			]
+		}
+	]
+}
